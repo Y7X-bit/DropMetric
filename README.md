@@ -1,9 +1,11 @@
 <div align="center">
 
 # 📦 DropMetric
+**🧊 UI so smooth it slipped through the matrix**
 
-**Measure the true size of any file — in red-hot AMOLED style.**  
+Measure the true size of any file — in red-hot AMOLED style.
 A glowing file size analyzer that’s as sleek as it is snappy.
+Branded with 💗 by [Y7X-bit](https://github.com/Y7X-bit)
 
 <img src="assets/1.png" alt="DropMetric UI" width="500"/>
 
@@ -11,14 +13,7 @@ A glowing file size analyzer that’s as sleek as it is snappy.
 
 ---
 
-### 🧰 What is DropMetric?
-
-DropMetric is your go-to minimalist tool to instantly view file size in Bytes, KB, and MB —  
-powered by drag-and-drop and built with that signature **Y7X UI glow** 🔥
-
----
-
-### ✨ Features
+## 🌟 Features at a Glance
 
 - 📂 Drag & drop or browse to select files
 - 📏 Shows size in **Bytes, KB, and MB**
@@ -29,18 +24,12 @@ powered by drag-and-drop and built with that signature **Y7X UI glow** 🔥
 
 ---
 
-### 🛠 Built Using
+## 🖥️ Installation
 
-| Tech               | Why?                           |
-|--------------------|--------------------------------|
-| `Python`           | The brain of the app 🧠         |
-| `customtkinter`    | For that premium dark GUI 🖤    |
-| `tkinterdnd2`      | Enables drag-and-drop magic 🪄  |
-
----
-
-### 🚀 Run it Locally
+> Python 3.9 or later required
 
 ```bash
-pip install customtkinter tkinterdnd2
+git clone https://github.com/Y7X-bit/DropMetric.git
+cd DropMetric
+pip install -r requirements.txt
 python DropMetric.py
